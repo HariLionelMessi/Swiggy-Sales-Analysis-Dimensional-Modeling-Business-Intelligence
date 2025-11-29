@@ -45,6 +45,7 @@ The core of the project involved transforming the data structure into an analyti
         fact_swiggy_orders (Measures: Price_INR, Rating, Rating_Count, plus Foreign Keys linking to all dimension tables).
 
     Loading: Data was populated by inserting distinct records into the dimension tables and then using JOINs to resolve the foreign keys during the fact table loading process .
+<img width="732" height="597" alt="image" src="https://github.com/user-attachments/assets/be7467b3-1897-4a32-8c3f-60aaa0b0f632" />
 
 ## Key Business Analysis & Insights
 
