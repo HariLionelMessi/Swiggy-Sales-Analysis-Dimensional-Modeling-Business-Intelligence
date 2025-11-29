@@ -25,9 +25,9 @@ Duplicate Removal: Identified and successfully removed 29 duplicate rows. This w
 2. Dimensional Modeling (Star Schema)
 
 The core of the project involved transforming the data structure into an analytical schema to improve query performance and data clarity .
-<img width="732" height="597" alt="image" src="https://github.com/user-attachments/assets/be7467b3-1897-4a32-8c3f-60aaa0b0f632" />
-    Schema Design: A Star Schema was designed, separating descriptive data into dimensions and measurable data into a central fact table.
 
+Schema Design: A Star Schema was designed, separating descriptive data into dimensions and measurable data into a central fact table.
+<img width="732" height="597" alt="image" src="https://github.com/user-attachments/assets/be7467b3-1897-4a32-8c3f-60aaa0b0f632" />
     Dimension Tables Created:
 
         dim_date (Order Date components: Year, Month, Quarter, Week, etc.).
