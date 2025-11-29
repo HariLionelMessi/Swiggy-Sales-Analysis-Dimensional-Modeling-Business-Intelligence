@@ -1,1 +1,1 @@
-# Swiggy-Sales-Analysis-Dimensional-Modeling-Business-Intelligence
+# Swiggy Sales Analysis - Dimensional Modeling & Business Intelligence
