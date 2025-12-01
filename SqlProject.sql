@@ -383,7 +383,21 @@ CASE
 END
 )
 
+--Rating Count Distribution
+SELECT 
+    rating,
+    COUNT(*) AS rating_count
+FROM fact_swiggy_orders
+GROUP BY rating
+ORDER BY rating;
 
 
-
-
+--Cuisine(Category) Performance (Orders + Avg Rating)
+SELECT 
+    c.category,
+    COUNT(*) AS total_orders,
+    AVG(CONVERT(FLOAT, f.rating)) AS avg_rating
+FROM fact_swiggy_orders f
+JOIN dim_category c ON f.category_id = c.category_id
+GROUP BY c.category
+ORDER BY total_orders DESC;
